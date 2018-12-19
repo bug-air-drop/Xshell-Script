@@ -17,4 +17,4 @@ Or run `./build.sh update` to update node, you must stop the node process before
 Enter the path 'wicc' , and run `./coind -datadir=cur`
 
 * Note:
-This node allows all ip to connect with JSON-RPC service, you can change the rules by modifying the files : `WaykiChain.conf`
+This node allows all ip to connect with JSON-RPC service, you can change the rules by modifying the file : `WaykiChain.conf`
