@@ -55,7 +55,7 @@ make
 
 #copy the coind
 cd
-mkdir wicc
+mkdir -p wicc
 cp -r WaykiChain/src/coind wicc
 cd wicc
 
