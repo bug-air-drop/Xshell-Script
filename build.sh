@@ -42,10 +42,10 @@ else
 fi
 
 #build waykicoind
-chmod +x WaykiChain/linux_shell/linux.sh
+chmod +x WaykiChain/linuxshell/linux.sh
 chmod +x WaykiChain/autogen.sh
 chmod +x WaykiChain/share/genbuild.sh
-cd ./WaykiChain/linux_shell
+cd ./WaykiChain/linuxshell
 sh linux.sh
 cd ..
 chmod +x autogen-coin-man.sh
