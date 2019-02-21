@@ -24,7 +24,7 @@ if $updatemode
 then
 	# update code
 	cd WaykiChain
-	git checkout
+	git pull origin master
 	cd
 else
 	# prepare the build environment
