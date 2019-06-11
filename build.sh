@@ -1,15 +1,5 @@
 #!/bin/bash
 
-# check os version
-os_version=$(cat /etc/issue | grep "Ubuntu 14.04");
-updatemode=false
-
-if [ -z "$os_version" ] 
-then
-	echo -e "\033[47;31m Sorry, WaykiChain only support Ubuntu 14.04 now! \033[0m"
-	exit 1
-fi
-
 if [ "$1" == "update" ]
 then
 	updatemode=true
