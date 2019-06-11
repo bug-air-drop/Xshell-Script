@@ -54,9 +54,9 @@ if updatemode==false
 then
 	if [ "$1" == "testnet" ]
 	then
-		echo -e "rpcuser=wikichain\nrpcpassword=admin\nblockminsize=1000\nzapwallettxes=0\ndebug=INFO\nprinttoconsole=0\nlogtimestamps=1\nlogprintfofile=1\nlogprintfileline=1\nserver=1\nlisten=1\nuiport=4555\nrpcport=6968\nrpcallowip=0.0.0.0/0\nisdbtraversal=1\ndisablesafemode=1\ngen=1\ngenproclimit=1000000\ntestnet=1" >> WaykiChain.conf
+		echo -e "rpcuser=wikichain\nrpcpassword=admin\nblockminsize=1000\nzapwallettxes=0\ndebug=INFO\nprinttoconsole=0\nlogtimestamps=1\nlogprinttofile=1\nlogprintfileline=1\nserver=1\nlisten=1\nuiport=4555\nrpcport=6968\nrpcallowip=0.0.0.0/0\nisdbtraversal=1\ndisablesafemode=1\ngen=1\ngenproclimit=1000000\ntestnet=1" >> WaykiChain.conf
 	else
-		echo -e "rpcuser=wikichain\nrpcpassword=admin\nblockminsize=1000\nzapwallettxes=0\ndebug=INFO\nprinttoconsole=0\nlogtimestamps=1\nlogprintfofile=1\nlogprintfileline=1\nserver=1\nlisten=1\nuiport=4555\nrpcport=6968\nrpcallowip=0.0.0.0/0\nisdbtraversal=1\ndisablesafemode=1\ngen=1\ngenproclimit=1000000" >> WaykiChain.conf
+		echo -e "rpcuser=wikichain\nrpcpassword=admin\nblockminsize=1000\nzapwallettxes=0\ndebug=INFO\nprinttoconsole=0\nlogtimestamps=1\nlogprinttofile=1\nlogprintfileline=1\nserver=1\nlisten=1\nuiport=4555\nrpcport=6968\nrpcallowip=0.0.0.0/0\nisdbtraversal=1\ndisablesafemode=1\ngen=1\ngenproclimit=1000000" >> WaykiChain.conf
 	fi
 fi
 
